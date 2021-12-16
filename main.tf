@@ -43,7 +43,7 @@
 terraform {
   required_providers {
     aws = {
-      version = "~> 3.69.0"
+      version = "> 3.69.0"
     }
     template = {
       version = "~> 2.1"
